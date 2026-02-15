@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitPulse | Ultimate Fitness Tracker</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="app-container">
+    <!-- Header Section -->
+    <header class="app-header fade-in">
+      <div class="header-content">
+        <div class="logo-section">
+          <div class="logo-icon">🔥</div>
+          <div class="logo-text">
+            <h1>FitPulse</h1>
+            <p>Fuel your potential</p>
+          </div>
+        </div>
+        <div class="user-stats">
+          <div class="stat-item">
+            <div class="stat-value" id="header-calories">0</div>
+            <div class="stat-label">Cals Left</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value" id="header-steps">0</div>
+            <div class="stat-label">Steps</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value" id="header-water">0.0L</div>
+            <div class="stat-label">Water</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs fade-in" style="animation-delay: 0.1s">
+      <button class="tab-btn active" data-tab="dashboard">Dashboard</button>
+      <button class="tab-btn" data-tab="food">Nutrition</button>
+      <button class="tab-btn" data-tab="exercise">Workouts</button>
+      <button class="tab-btn" data-tab="water">Hydration</button>
+      <button class="tab-btn" data-tab="progress">Progress</button>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main id="app-content" class="fade-in" style="animation-delay: 0.2s">
+      <!-- Content will be dynamically rendered here -->
+    </main>
+  </div>
+
+  <!-- Add Item Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-title">Add Entry</h2>
+        <button class="modal-close" id="modal-close">&times;</button>
+      </div>
+      <div id="modal-body">
+        <!-- Form content will be dynamically injected -->
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
