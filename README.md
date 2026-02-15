@@ -2,6 +2,8 @@
 
 FitPulse is a modern, high-performance fitness tracking web application inspired by MyFitnessPal. It features a glassmorphic design, real-time state management, and a comprehensive suite of trackers for nutrition, workouts, and hydration.
 
+**Live Demo: [https://saurabhuxx.github.io/Project--3/](https://saurabhuxx.github.io/Project--3/)**
+
 ## ✨ Features
 
 - **Dashboard**: Real-time overview of calories, steps, and water.
